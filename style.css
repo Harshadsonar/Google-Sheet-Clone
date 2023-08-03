@@ -1,0 +1,42 @@
+body {
+    width: 100vh;
+}
+
+table {
+    border-collapse: collapse;
+    width: auto;
+    overflow-x: auto;
+}
+
+th,
+td {
+    min-width: 80px;
+    border: 1px solid #333;
+}
+
+tr {
+    line-height: 20px;
+}
+
+td:focus {
+    outline: none;
+}
+
+#italics-btn {
+    font-style: italic;
+    font-weight: bold;
+}
+
+#bold-btn {
+    font-weight: bold;
+}
+
+#underline-btn {
+    text-decoration: underline;
+}
+
+
+/* try line-height
+maxheight
+height
+see which one works */
